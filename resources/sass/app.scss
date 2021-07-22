@@ -1,0 +1,31 @@
+@import "~bulma/sass/utilities/_all";
+
+$body-background-color: $light;
+$body-family: 'Source Sans Pro', sans-serif;
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+.widget-primary {
+    border-right: 8px solid $primary;
+}
+
+.widget-info {
+    border-right: 8px solid $info;
+}
+
+.widget-danger {
+    border-right: 8px solid $danger;
+}
+
+.widget-warning {
+    border-right: 8px solid $warning;
+}
+
+.login-box {
+    height: 100vh;
+}
+
+.login-section {
+    width: 100%;
+}
